@@ -18,6 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+
+#-------------------------------
+# General Site Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 title: Judy Sihyon Park
 email: judyp@andrew.cmu.edu
 description: >- # this means to ignore newlines until "baseurl:"
@@ -27,28 +33,33 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  judypark
 
-# Build settings
-# theme: minimal
+#-------------------------------
+# Build Settings
+markdown: kramdown
+permalink: /:title
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-feed
-  - jekyll-remote-theme
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+paginate: 9
+paginate_path: "/blog/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+  - scope:
+      path: '_posts'
+    values:
+      permalink: /blog/:slug
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
