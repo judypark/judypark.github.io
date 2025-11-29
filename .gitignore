@@ -1,0 +1,7 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+#ignore the gems lock file by adding this line:
+Gemfile.lock
