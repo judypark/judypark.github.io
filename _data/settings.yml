@@ -16,6 +16,8 @@ menu__settings:
 #      url: '/blog/'
 #    - title: 'About'
 #      url: '/about/'
+    - title: 'Research'
+      url: '/research/'
     - title: 'Art'
       url: '/art/'
     - title: 'Contact'
@@ -82,7 +84,7 @@ portfolio:
 
 
 #-------------------------------
-# Footer Settings
+# Footer Settings (for research page only)
 social:
 #- {icon: "ion-logo-twitter", color: "#55acee", label: Twitter, link: "https://twitter.com"}
 #- {icon: "ion-logo-facebook", color: "#3b5999", label: Facebook, link: "https://facebook.com"}
