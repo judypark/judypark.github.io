@@ -21,16 +21,17 @@
 title: Judy Sihyon Park
 email: judyp@andrew.cmu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  judy website (coming soon)
+  personal website (coming soon)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  judypark
 
 # Build settings
-theme: clancy
+# theme: minimal
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
