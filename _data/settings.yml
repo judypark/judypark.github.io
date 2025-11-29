@@ -3,7 +3,7 @@
 title: Judy Sihyon Park
 logo: # You can add own logo. For example '/images/logo.png'.
 author: Judy Sihyon Park
-description: personal website copming soon
+description: personal website coming soon
 
 
 #-------------------------------
@@ -16,10 +16,11 @@ menu__settings:
 #      url: '/blog/'
 #    - title: 'About'
 #      url: '/about/'
+    - title: 'Art'
+      url: '/art/'
     - title: 'Contact'
       url: '/contact/'
-#    - title: 'Elements'
-#      url: '/elements/'
+
 
 
 #-------------------------------
