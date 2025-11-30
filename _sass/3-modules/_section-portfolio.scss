@@ -1,10 +1,11 @@
 /* Portfolio */
 .portfolio__view {
   padding-left: 20px;
-  border-radius: 0px;
+  border-radius: 0;
   background: var(--background-color);
 }
 
+/* toggle button between gallery and list view*/
 .portfolio__toggle {
   display: flex;
   justify-content: center;
@@ -12,7 +13,7 @@
   min-width: 48px;
   height: 48px;
   padding: 12px;
-  border-radius: 0px;
+  border-radius: 10px;
   background: var(--background-alt-color);
   transition: transform 0.15s ease;
   cursor: pointer;
@@ -80,37 +81,49 @@
 }
 
 .view-list {
-
   .portfolio__gallery {
+    max-width: 500px;    // ← Added: narrow gallery width
+    margin: 0 auto;      // ← Added: center it
+
     .col {
       width: 100%;
     }
 
     .portfolio__link {
-      padding-top: 67%;
+      /* remove padding-top here entirely */
+      padding-top: 0;
     }
 
     @media only screen and (max-width: $tablet) {
       .portfolio__link {
-         padding-top: 87%;
+        padding-top: 0;
       }
     }
   }
+
+  // Optional but recommended: visually tighten each row item
+  .portfolio__item {
+    max-width: 460px;     // ← Added: narrower item width
+    margin-left: auto;    // center horizontally
+    margin-right: auto;   // center horizontally
+  }
 }
+
 
 .portfolio__item {
   padding: 0px;
   margin-bottom: ($base-spacing-unit * 2);
-  border-radius: 10px;
+  border-radius: 0px;
   background: var(--background-alt-color);
 }
+
+
 
 .portfolio__link {
   position: relative;
   transform: translate(0);
   display: block;
-  padding-top: 87%;
-  border-radius: 10px;
+  border-radius: 0;
   background: var(--background-color);
   transition: none;
 
@@ -136,13 +149,14 @@
     display: block;
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 0px;
     opacity: 0;
     visibility: hidden;
     background: rgba(0, 0, 0, 0.1);
     transition: all .35s ease;
   }
 }
+
 
 .portfolio__icon {
   position: absolute;
@@ -155,7 +169,7 @@
   align-items: center;
   width: 40px;
   height: 40px;
-  border-radius: 50%;
+  border-radius: 0;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.07);
   color: var(--heading-font-color);
   background: var(--border-color-alt);
@@ -168,9 +182,26 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  position: static;
+  display: block;
+height: 100%;
   object-fit: cover;
   border-radius: 0px;
   box-shadow: 0px 103px 80px rgba(27, 22, 50, 0.07), 0px 37.6px 29.2px rgba(27, 22, 50, 0.0483), 0px 18.25px 14.18px rgba(27, 22, 50, 0.0389), 0px 8.95px 6.95px rgba(27, 22, 50, 0.0311), 0px 3.54px 2.75px rgba(27, 22, 50, 0.0217);
+
+}
+
+/* Portfolio section heading override */
+.section.portfolio .section__title {
+  font-size: $font-size-h2;      // choose the size you want
+  line-height: 1.15;
+  margin-bottom: 0;
+}
+
+/* Optional: tweak for smaller screens */
+@media only screen and (max-width: $mobile) {
+  .section.portfolio .section__title {
+    font-size: $font-size-h3;
+    margin-bottom: $base-spacing-unit*0.5;
+  }
 }

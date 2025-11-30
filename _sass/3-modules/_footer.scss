@@ -1,9 +1,9 @@
 /* Footer */
 .footer {
-  margin: 80px 0 68px;
+  margin: $base-spacing-unit 0 $base-spacing-unit*2;
 
   @media only screen and (max-width: $mobile) {
-    margin: 80px 0 48px;
+    margin: $base-spacing-unit 0 $base-spacing-unit*2;
   }
 }
 
@@ -58,6 +58,16 @@
     }
   }
 }
+
+.social__icon-img {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+  object-fit: contain;   /* keeps proportions */
+}
+
 
 .copyright {
   font-size: 14px;

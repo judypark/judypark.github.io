@@ -1,7 +1,7 @@
 /* Post + Page */
 .post,
 .page {
-  max-width: 760px;
+  max-width: 760px ;/* 760px; change dto be higher */
   margin: 0 auto 60px;
   color: var(--text-color);
 
@@ -226,14 +226,65 @@
   
   @media only screen and (max-width: $mobile) {
     .error__title {
-      font-size: 68px;
+      font-size: 68px; /* fixed: duplicate removed */
     }
 
-    .error__title {
-      font-size: 80px;
-    }
     .error__text {
       margin-bottom: 24px;
     }
   }
+}
+/* 404 IMAGE OVERLAY */
+.error-overlay {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url('/images/photography/all-the-things/5-.JPG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 0;
+}
+
+.error-overlay__content {
+  position: relative;
+  z-index: 2;
+  padding: 40px 20px;
+}
+
+/* Mobile: remove image + overlay treatment */
+@media only screen and (max-width: $mobile) {
+  .error-overlay {
+    height: auto;
+    background: var(--background-color);
+    padding: 80px 20px;
+  }
+
+  .error-overlay::before {
+    display: none;
+  }
+}
+
+/* Force white text inside 404 overlay */
+.error-overlay__content,
+.error-overlay__content .error__title,
+.error-overlay__content .error__text,
+.error-overlay__content a,
+.error-overlay__content a.button {
+  color: #fff !important;
+}
+
+.error-overlay__content .button {
+  background: transparent;
+  border: 1.5px solid #fff;
 }

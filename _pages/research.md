@@ -3,14 +3,12 @@ layout: page
 title: Academic Research
 permalink: /research/
 ---
-## Images
+## Coming soon
 
-![Minimalism]({{site.baseurl}}/images/04.jpg)
-*Photo by [Kimon Maritz](https://unsplash.com/photos/mQiZnKwGXW0) on [Unsplash](https://unsplash.com/)*
+![placeholder-photo](/images/photography/all-the-things/17-.jpg)
+*Original photo, see full series [here](https://judypark.github.io/photography)*
 
 ***
-
-A paragraph looks like this — Globally incubate standards compliant channels before scalable benefits. Quickly disseminate superior deliverables whereas web-enabled applications. Quickly drive clicks-and-mortar catalysts for change before vertical architectures. Credibly reintermediate backend ideas for cross-platform models. Continually reintermediate integrated processes through technically sound intellectual capital. Holistically foster superior methodologies.
 
 
 

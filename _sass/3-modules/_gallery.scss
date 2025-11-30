@@ -21,3 +21,31 @@
     }
   }
 }
+
+/* Masonry Pinterest-style layout */
+/* this part doesnt work yet!! */
+.gallery .row {
+  column-count: 3;
+  column-gap: $base-spacing-unit * 1.5;
+  display: block;                      // override flex from .row
+
+  @media only screen and (max-width: $desktop) {
+    column-count: 2;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    column-count: 1;
+  }
+}
+
+/* Each tile behaves like a masonry “card” */
+.gallery .col {
+  width: 100%;                          // let column layout decide width
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: $base-spacing-unit * 1.5;
+  display: inline-block;
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+}

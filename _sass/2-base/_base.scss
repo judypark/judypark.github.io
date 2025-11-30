@@ -58,6 +58,34 @@ h6 {
   font-size: $font-size-h6;
 }
 
+
+/* LINK BEHAVIOUR */
+
+/* Underline links ONLY inside real text/content */
+.post a,
+.page a,
+.page-art a,
+p a,
+li a,
+blockquote a {
+  text-decoration: underline;
+  text-underline-offset: $base-font-size / 4;
+  text-decoration-thickness: 1.1px;
+}
+
+/* Hover effect for text links only */
+.post a:hover,
+.page a:hover,
+.page-art a:hover,
+p a:hover,
+li a:hover,
+blockquote a:hover {
+  color: var(--link-color);
+  text-decoration-color: var(--link-color-hover);
+}
+
+
+
 blockquote {
   position: relative;
   margin: 40px 0;
@@ -194,9 +222,10 @@ table td {
 }
 
 .button {
+
   display: inline-block;
-  padding: 20px 40px;
-  font-size: 16px;
+  padding: 15px 15px;
+  font-size: $base-font-size * 0.8;
   font-weight: 700;
   text-decoration: none;
   border-radius: 8px;

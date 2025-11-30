@@ -1,4 +1,5 @@
 <!-- begin footer -->
+<!-- for icons see https://ionic.io/ionicons/v4 -->
 <footer class="footer">
 
   <div class="container">
@@ -6,21 +7,75 @@
       <div class="col col-12">
 
         <div class="footer__inner">
-          {% if site.data.settings.social %}
-            <div class="social">
-              <ul class="social__list list-reset">
-                {% for social in site.data.settings.social %}
-                  <li class="social__item">
-                    <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener" aria-label="{{social.label}} link"><i class="ion {{social.icon}}" style="color: {{social.color}};"></i> {{social.label}}</a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          {% endif %}
+          <div class="social">
+            <ul class="social__list list-reset">
+
+
+
+              <!-- ORCID -->
+              <li class="social__item">
+                <a class="social__link"
+                  href="https://orcid.org/0000-0002-7674-2161"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="ORCID">
+                  
+                  <!-- Custom ORCID image -->
+                  <img src="/images/orcid.logo.png"
+                        alt="ORCID logo"
+                        class="social__icon-img">
+                  ORCID
+                </a>
+              </li>
+
+              <!-- LinkedIn -->
+              <li class="social__item">
+                <a class="social__link"
+                   href="https://www.linkedin.com/in/judy-sihyon-park-094681135/"
+                   target="_blank"
+                   rel="noopener"
+                   aria-label="Linkedin">
+                  <i class="ion ion-logo-linkedin" style="color: #0072b1;"></i>
+                  LinkedIn
+                </a>
+              </li>
+
+              <!-- GitHub -->
+              <li class="social__item">
+                <a class="social__link"
+                   href="https://github.com/judypark"
+                   target="_blank"
+                   rel="noopener"
+                   aria-label="Github">
+                  <i class="ion ion-logo-github" style="color: #24292e;"></i>
+                  Github
+                </a>
+              </li>
+
+              <!-- Email -->
+              <li class="social__item">
+                <a class="social__link"
+                  href="mailto:judyp@andrew.cmu.edu"
+                  target="_blank"
+                  rel="noopener"
+                  aria-label="ORCID">
+                  
+                  <!-- Custom image -->
+                  <img src="/images/email-icon.png"
+                        alt="email-icon"
+                        class="social__icon-img">
+                  Email: judyp@andrew.cmu.edu
+                </a>
+              </li>
+
+            </ul>
+          </div>
         </div>
 
         <div class="footer__info">
-          <div class="copyright">{{site.time | date: '%Y'}} &copy; Judy Sihyon Park.</div>
+          <div class="copyright">
+            {{ site.time | date: '%Y' }} &copy; Judy Sihyon Park. All rights reserved.
+          </div>
         </div>
 
       </div>
