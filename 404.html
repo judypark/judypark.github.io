@@ -2,9 +2,16 @@
 layout: page
 title: Page not found
 permalink: /404.html
+image: '/images/photography/all-the-things/judypark-upwards-ii-daydreaming-nyc-2025.jpg'
 ---
 
 <div class="error-overlay">
+
+  <!-- ★ use the front-matter variable -->
+  <img class="error-bg-img"
+       src="{{ page.image }}"
+       alt="404 background">
+
   <div class="error-overlay__content">
     <div class="error">
       <h2 class="error__title">404</h2>

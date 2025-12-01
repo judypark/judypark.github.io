@@ -84,6 +84,15 @@ blockquote a:hover {
   text-decoration-color: var(--link-color-hover);
 }
 
+a {
+  text-decoration: none;
+  color: var(--link-color);
+  transition: $global-transition;
+
+  &:hover {
+    color: var(--link-color-hover);
+  }
+}
 
 
 blockquote {
@@ -163,15 +172,6 @@ img,
   }
 }
 
-a {
-  text-decoration: none;
-  color: var(--link-color);
-  transition: $global-transition;
-
-  &:hover {
-    color: var(--link-color-hover);
-  }
-}
 
 hr {
   width: 100%;
@@ -222,28 +222,34 @@ table td {
 }
 
 .button {
-
   display: inline-block;
-  padding: 15px 15px;
-  font-size: $base-font-size * 0.8;
-  font-weight: 700;
+  padding: $base-font-size*0.5 $base-font-size*0.35;
+  font-size: $base-font-size;
+  font-weight: 600;
+  font-family: $base-font-family;
   text-decoration: none;
-  border-radius: 8px;
-  border: none;
+  border-radius: $base-font-size*0.5;
+  border: 1.5px solid var(--border-color);
   outline: none;
   cursor: pointer;
-  transition: all .25s;
-  color: var(--heading-font-color);
-  background: var(--background-alt-color);
+  
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease,
+    filter 0.25s ease;
 
-  &--primary {
-    color: var(--white);
-    background-color: var(--button-background-color);
+  &:hover {
+    background-color: var(--button-background-hover);
+    color: var(--button-font-hover);
+    transform: scale(1.05);
 
-    &:hover {
-      background: var(--button-background-hover);
-    }
   }
+}
+
+/* PRIMARY BUTTON */
+.button--primary {
+  @extend .button;
 }
 
 .lazy {

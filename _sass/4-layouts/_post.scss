@@ -1,7 +1,7 @@
 /* Post + Page */
 .post,
 .page {
-  max-width: 760px ;/* 760px; change dto be higher */
+  max-width: 1000px ;/* 760px; change dto be higher */
   margin: 0 auto 60px;
   color: var(--text-color);
 
@@ -32,7 +32,7 @@
 
 .post__info,
 .page__info {
-  max-width: 760px;
+  max-width: 1000px;
   margin: 96px auto 48px;
   text-align: center;
 
@@ -234,57 +234,76 @@
     }
   }
 }
-/* 404 IMAGE OVERLAY */
+/* 404 FULLSCREEN IMAGE OVERLAY */
 .error-overlay {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url('/images/photography/all-the-things/5-.JPG');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* ★ The background image provided via <img> in 404.htmml */
+.error-bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;         /* full width, full height */
+  z-index: 0;
+}
+
+/* Dark tint overlay */
 .error-overlay::before {
   content: "";
   position: absolute;
   inset: 0;
   background: rgba(0, 0, 0, 0.45);
-  z-index: 0;
+  z-index: 1;
 }
 
+/* Foreground text container */
 .error-overlay__content {
   position: relative;
   z-index: 2;
+  text-align: center;
   padding: 40px 20px;
 }
 
-/* Mobile: remove image + overlay treatment */
-@media only screen and (max-width: $mobile) {
-  .error-overlay {
-    height: auto;
-    background: var(--background-color);
-    padding: 80px 20px;
-  }
-
-  .error-overlay::before {
-    display: none;
-  }
-}
-
-/* Force white text inside 404 overlay */
+/* White text everywhere */
 .error-overlay__content,
-.error-overlay__content .error__title,
-.error-overlay__content .error__text,
-.error-overlay__content a,
-.error-overlay__content a.button {
+.error-overlay__content * {
   color: #fff !important;
 }
 
+
 .error-overlay__content .button {
-  background: transparent;
-  border: 1.5px solid #fff;
+  display: inline-block;
+  padding: $base-font-size*0.5 $base-font-size*0.25;
+  font-size: $base-font-size;
+  font-weight: 600;
+  font-family: $base-font-family;
+  text-decoration: none;
+  border-radius: $base-font-size*0.5;
+  border: 1.5px solid white;
+  outline: none;
+  cursor: pointer;
+  
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease,
+    filter 0.25s ease;
+
+
+  &:hover {
+    transform: scale(1.05);
+    text-decoration: none !important;
+    background-color: transparent;
+    border: 1.5px solid white !important;
+  }
 }
+

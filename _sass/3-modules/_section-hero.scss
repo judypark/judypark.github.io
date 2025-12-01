@@ -58,7 +58,7 @@
     height: auto;
     border-radius: 5px;
     display: block;
-    margin-bottom: $base-spacing-unit
+    margin-bottom: $base-spacing-unit*0.2;
   }
 
 
@@ -87,8 +87,8 @@
 
     justify-content: center;       /* ⬅ center the whole button row */
     align-items: center;
-    gap: $base-spacing-unit*2  ;      /* ⬅ space between buttons */
-    margin-top: $base-spacing-unit*2 ;
+    gap: $base-spacing-unit*1.5  ;      /* ⬅ space between buttons */
+    margin-top: $base-spacing-unit*1.5 ;
 
     @media only screen and (max-width: $mobile) {
       flex-direction: column;

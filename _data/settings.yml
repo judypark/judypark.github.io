@@ -81,9 +81,9 @@ portfolio-1-all-the-things:
     - image: /images/photography/all-the-things/19-baby shark.jpg
       title: Baby Shark (~2023)
       description: Mexico City      
-    - image: /images/photography/all-the-things/17-butler-IN-2025.jpg
-      title: (2025)  
-      description: Butler, IN           
+    - image: /images/photography/all-the-things/the-alchemist-butler-in-2025.jpg
+      title: The Alchemist
+      description: Indiana, USA (2025)           
 
 
     - image: /images/photography/all-the-things/20-halloween night.jpg
@@ -136,17 +136,17 @@ paintings-1:
   portfolio__title: Paintings
   portfolio__gallery:
 
-    - image: /images/paintings/dream canyon pink skies-2025-acrylic on canvas-in.jpg
+    - image: /images/paintings/dream canyon pink clouds-2025-acrylic on canvas-in.png
       title: dream canyon pink skies (2025)
-      description: acrylic on canvas, 10x20 in.
+      description: acrylic on canvas, 10 x 20 in.
 
     - image: /images/paintings/evening on avenue casgrain, 2023, acrylic on canvas, 24x30 in.jpg
       title: Evening on avenue casgrain (2023)
-      description: acrylic on canvas, 24×30 in.      
+      description: acrylic on canvas, 24 × 30 in.      
 
     - image: /images/paintings/Ladylike-2019-acrylic on canvas-12x15in.jpg
       title: Ladylike (2019)
-      description: acrylic on canvas, 12×15 in.       
+      description: acrylic on canvas, 12 × 15 in.       
 
 
     - image: /images/paintings/primordial contemplations-2023-oil on canvas-in.jpg
@@ -166,15 +166,15 @@ paintings-1:
       description: acrylic on canvas, 20×16 in.
     - image: /images/paintings/Untitled Door-2018-acrylic on found wood-80x30in.jpg
       title: Untitled Door (2018)
-      description: acrylic on found wood, 80×30 in.
+      description: acrylic on found wood (shown partially in photo), 80×30 in.
     - image: /images/paintings/Morning by the Window, 2017, acrylic on canvas, 12x10 in.png
       title: Morning by the Window (2017)
       description: acrylic on canvas, 12×10 in.
     - image: /images/paintings/Campbells-Soup-2019-acrylic on canvas-20x20in.jpg
-      title: Ceci Ne Pas Campbells Soup (2019)
+      title: ceci ne pas le soupe de campbell (2019)
       description: acrylic on canvas, 20×20 in.
     - image: /images/paintings/post nut clarity- 2017-acrylic on canvas- 10x10in.jpg
-      title: Post Nut Clarity (2017)
+      title: post nut clarity (2017)
       description: acrylic on canvas, 10×10 in.
 
 
