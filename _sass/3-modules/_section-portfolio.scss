@@ -199,3 +199,25 @@
 
 
 /* === PORTFOLIO – MOBILE OVERRIDES (phones)  */
+@media only screen and (max-width: $tablet) {
+  .section.portfolio .portfolio__image {
+    width: 900%;
+    max-width: 90%;
+    height: auto;              // let image set its own height
+    object-fit: cover;         // keep nice cropping but no forced height
+    display: block;
+  }
+
+  /* optional: make the clickable wrapper also full-width */
+  .section.portfolio .portfolio__link {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* if your grid uses columns, make them full-width on phones */
+  .section.portfolio .col {
+    width: 100%;
+    max-width: 100%;
+  }
+}
