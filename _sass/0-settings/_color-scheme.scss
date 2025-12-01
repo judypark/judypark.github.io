@@ -42,6 +42,7 @@
   --light-gray: #f0f0f0;
   --gray: #d1d1d1;
   --dark: #252525;
+  --exter-green:  #009e73;
 
   --background-color: var(--dark);
   --background-alt-color: #18181d;
@@ -51,10 +52,10 @@
   
   --heading-font-color: var(--light-gray);
 
-  --link-color: #009e73;
+  --link-color: var(--exter-green);
   --link-color-hover: var(--brand-color);
 
-  --button-font-color: var(--brand-color);
+  --button-font-color: var(--exter-green);
   --button-font-hover: var(--dark);
   --button-background-color: var(--dark);
   --button-background-hover: var(--brand-color);
