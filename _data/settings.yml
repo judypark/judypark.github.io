@@ -28,29 +28,29 @@ menu__settings:
 portfolio-1-all-the-things:
   portfolio__title: All the Things We've Made
   portfolio__gallery:
-    - image: /images/photography/all-the-things/1-.jpg
-      title: (title)
-      description: (caption)
-    - image: /images/photography/all-the-things/18-.jpg
-      title: (title)
-      description: (caption)      
-    - image: /images/photography/all-the-things/2-.jpg
-      title: (title)
-      description: (caption)
+    - image: /images/photography/all-the-things/head-down-butler-in-2025.jpg
+      title: Keep Your Head Down 
+      description: Indiana, USA (2025)
+    - image: /images/photography/all-the-things/garbage-day-toronto-on-2025.jpg
+      title: Garbage Day
+      description: Toronto, ON (2025)    
+    - image: /images/photography/all-the-things/tapping-machine-butler-in-2025.jpg
+      title: Tapping Machine
+      description: Indiana, USA (2025)
  
-    - image: /images/photography/all-the-things/4-.jpg
-      title: (title)
-      description: (caption)
-    - image: /images/photography/all-the-things/5-.jpg
-      title: (title)
-      description: (caption)         
-    - image: /images/photography/all-the-things/8-.jpg
-      title: (title)
-      description: (caption)
+    - image: /images/photography/all-the-things/upwards-i-nyc-2025.jpg
+      title: Upwards I
+      description: New York, NY (2023)
+    - image: /images/photography/all-the-things/judypark-upwards-ii-daydreaming-nyc-2025.jpg
+      title: Upwards II (Daydreaming) 
+      description: New York, NY (2023)        
+    - image: /images/photography/all-the-things/judypark-day-shift-at-the-steel-plant-butler-in-2025.jpg
+      title: Day Shift at the Steel Plant
+      description: Indiana, USA (2025)
 
-    - image: /images/photography/all-the-things/13-.jpg
-      title: (title)
-      description: (caption)
+    - image: /images/photography/all-the-things/judypark-iron-tap-no-2-indiana-usa-2025.jpg
+      title: Iron Tap No. 2
+      description: Indiana, USA (2025)
     - image: /images/photography/all-the-things/15-.jpg
       title: (title)
       description: (caption)           
@@ -63,12 +63,13 @@ portfolio-1-all-the-things:
     - image: /images/photography/all-the-things/10-needs-edits.jpg
       title: (title)
       description: (caption)
+    - image: /images/photography/all-the-things/upwards-queens-ny-2025.jpg
+      title: Upwards (2025)
+      description: Queens, NY   
     - image: /images/photography/all-the-things/11-.jpg
       title: (title)
       description: (caption)
-    - image: /images/photography/all-the-things/12-.jpg
-      title: (title)
-      description: (caption)
+
 
 #    - image: /images/photography/all-the-things/14-needs-edits.jpg
 #      title: (title)
@@ -76,26 +77,24 @@ portfolio-1-all-the-things:
 
     - image: /images/photography/all-the-things/9-.jpg
       title: (title)
-      description: (caption)  
-    - image: /images/photography/all-the-things/6-.jpg
-      title: (title)
-      description: (caption)   
-    - image: /images/photography/all-the-things/17-.jpg
-      title: (title)
-      description: (caption)               
-
+      description: Butler, IN (2025) 
+    - image: /images/photography/all-the-things/19-baby shark.jpg
+      title: Baby Shark (~2023)
+      description: Mexico City      
+    - image: /images/photography/all-the-things/17-butler-IN-2025.jpg
+      title: (2025)  
+      description: Butler, IN           
 
 
     - image: /images/photography/all-the-things/20-halloween night.jpg
-      title: (title)
-      description: (caption)
-    - image: /images/photography/all-the-things/19-baby shark.jpg
-      title: (title)
-      description: (caption)  
-    - image: /images/photography/all-the-things/16-.jpg
-      title: (title)
-      description: (caption)       
-
+      title: Night Shift on Halloween (2025)
+      description: New York, NY
+    - image: /images/photography/all-the-things/16-nyc-2023.jpg
+      title: (2023)
+      description: New York, NY      
+    - image: /images/photography/all-the-things/6-butler-IN-2025.jpg
+      title: Solaris (2025)
+      description: Butler, IN 
        
     #- image: /images/photography/all-the-things/9-.jpg
     #  title: (title)
@@ -155,11 +154,11 @@ paintings-1:
       description: oil on canvas     
     - image: /images/paintings/Dancer - newer photo.jpg
       title: Dancer (2020)
-      description: acrylic on canvas, 30x40 in.     
+      description: acrylic on canvas, 30 x 40 in.     
 
-    - image: /images/paintings/halmoni-2023-acrylic on found wood-in.jpg
+    - image: /images/paintings/halmoni-2023-acrylic on found wood-10x14in.jpg
       title: Halmoni (2023)
-      description: acrylic on found wood         
+      description: acrylic on found wood, 10 x 14 in.         
 
 
     - image: /images/paintings/Portrait of a Woman on Prozac-2019- acrylic on canvas 20x16in.jpg

@@ -1,11 +1,12 @@
-/* Portfolio */
+/* === PORTFOLIO – DESKTOP / TABLET DEFAULT === */
+
+/* Portfolio wrapper */
 .portfolio__view {
   padding-left: 20px;
-  border-radius: 0;
-  background: var(--background-color);
+  border-radius: 0;              // no background here
 }
 
-/* toggle button between gallery and list view*/
+/* toggle button between gallery and list view */
 .portfolio__toggle {
   display: flex;
   justify-content: center;
@@ -14,7 +15,7 @@
   height: 48px;
   padding: 12px;
   border-radius: 10px;
-  background: var(--background-alt-color);
+  background: var(--background-alt-color);   // ← keep: toggle button background
   transition: transform 0.15s ease;
   cursor: pointer;
 
@@ -23,6 +24,7 @@
   }
 }
 
+/* three-bar “view” icon */
 .icon-bar {
   position: relative;
   width: 4px;
@@ -59,6 +61,7 @@
   }
 }
 
+/* icon animation in list view */
 .view-list {
   .icon-bar {
     width: 24px;
@@ -80,18 +83,18 @@
   }
 }
 
+/* LIST VIEW – desktop / tablet layout */
 .view-list {
   .portfolio__gallery {
-    max-width: 500px;    // ← Added: narrow gallery width
-    margin: 0 auto;      // ← Added: center it
+    max-width: 500px;    // narrow gallery
+    margin: 0 auto;      // center
 
     .col {
       width: 100%;
     }
 
     .portfolio__link {
-      /* remove padding-top here entirely */
-      padding-top: 0;
+      padding-top: 0;    // no fixed aspect ratio in desktop list
     }
 
     @media only screen and (max-width: $tablet) {
@@ -101,39 +104,31 @@
     }
   }
 
-  // Optional but recommended: visually tighten each row item
   .portfolio__item {
-    max-width: 460px;     // ← Added: narrower item width
-    margin-left: auto;    // center horizontally
-    margin-right: auto;   // center horizontally
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-
+/* Portfolio card item – desktop default */
 .portfolio__item {
-  padding: 0px;
+  padding: 0;
   margin-bottom: ($base-spacing-unit * 2);
-  border-radius: 0px;
-  background: var(--background-alt-color);
+  border-radius: 0;
+  // background removed (except toggle/icons globally)
 }
 
-
-
+/* Clickable image wrapper – desktop default */
 .portfolio__link {
   position: relative;
   transform: translate(0);
   display: block;
   border-radius: 0;
-  background: var(--background-color);
+  // background removed
   transition: none;
 
   &:hover {
-
-    &::after {
-      opacity: 1;
-      visibility: visible;
-    }
-
     .portfolio__icon {
       transform: translate(-50%, -50%) scale(1,1);
       opacity: 1;
@@ -142,6 +137,7 @@
   }
 
   &::after {
+    /* no background here to respect “no background colors” rule */
     content: "";
     position: absolute;
     top: 0;
@@ -149,15 +145,14 @@
     display: block;
     width: 100%;
     height: 100%;
-    border-radius: 0px;
+    border-radius: 0;
     opacity: 0;
     visibility: hidden;
-    background: rgba(0, 0, 0, 0.1);
     transition: all .35s ease;
   }
 }
 
-
+/* Lightbox / eye icon overlay */
 .portfolio__icon {
   position: absolute;
   z-index: 1;
@@ -172,36 +167,86 @@
   border-radius: 0;
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.07);
   color: var(--heading-font-color);
-  background: var(--border-color-alt);
+  background: var(--border-color-alt);   // ← keep: icon background
   opacity: 0;
   visibility: hidden;
   transition: all .35s ease, transform .35s cubic-bezier(.175,.885,.32,1.275) 0s;
 }
 
-.portfolio__image {
-  position: absolute;
-  top: 0;
-  left: 0;
+/* Portfolio image itself – only inside the portfolio section */
+.section.portfolio .portfolio__image {
   position: static;
   display: block;
-height: 100%;
+  height: 100%;
   object-fit: cover;
-  border-radius: 0px;
-  box-shadow: 0px 103px 80px rgba(27, 22, 50, 0.07), 0px 37.6px 29.2px rgba(27, 22, 50, 0.0483), 0px 18.25px 14.18px rgba(27, 22, 50, 0.0389), 0px 8.95px 6.95px rgba(27, 22, 50, 0.0311), 0px 3.54px 2.75px rgba(27, 22, 50, 0.0217);
-
+  border-radius: 0;
+  box-shadow:
+    0px 103px 80px rgba(27, 22, 50, 0.07),
+    0px 37.6px 29.2px rgba(27, 22, 50, 0.0483),
+    0px 18.25px 14.18px rgba(27, 22, 50, 0.0389),
+    0px 8.95px 6.95px rgba(27, 22, 50, 0.0311),
+    0px 3.54px 2.75px rgba(27, 22, 50, 0.0217);
 }
 
 /* Portfolio section heading override */
 .section.portfolio .section__title {
-  font-size: $font-size-h2;      // choose the size you want
-  line-height: 1.15;
+  font-size: $font-size-h2;
+  line-height: 1.1;
   margin-bottom: 0;
 }
 
-/* Optional: tweak for smaller screens */
+/* Optional: tweak for small screens (still applies, just text) */
 @media only screen and (max-width: $mobile) {
   .section.portfolio .section__title {
     font-size: $font-size-h3;
-    margin-bottom: $base-spacing-unit*0.5;
+    margin-bottom: $base-spacing-unit * 0.5;
+  }
+}
+
+
+/* === PORTFOLIO – MOBILE OVERRIDES (phones) === */
+
+@media only screen and (max-width: $tablet) {
+
+  /* soften container on mobile */
+  .portfolio__view {
+    border-radius: 0px;
+    // no background
+  }
+
+  /* MOBILE list view layout */
+  .view-list {
+    .portfolio__gallery {
+      max-width: none;      // take full width on mobile
+      margin: 0;
+
+      .col {
+        width: 100%;
+      }
+
+      .portfolio__link {
+        padding-top: 0;   // tighter aspect in list view (mobile)
+      }
+    }
+  }
+
+  /* MOBILE card styling */
+  .portfolio__item {
+    padding: $base-spacing-unit;
+    border-radius: 0px;
+    // no background
+  }
+
+  .portfolio__link {
+    padding-top: 0;      // default aspect ratio in grid
+    border-radius: 0px;
+  }
+
+  .portfolio__link::after {
+    border-radius: 0px;   // keep shape, no background
+  }
+
+  .section.portfolio .portfolio__image {
+    border-radius: 0px;
   }
 }

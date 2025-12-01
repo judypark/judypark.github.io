@@ -28,7 +28,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  gap: $base-font-size*0.9; /* space between photo + CV lines */
+  gap: $base-font-size*1.5; /* space between photo + CV lines */
 
 
     /* for tablet */
@@ -58,6 +58,7 @@
     height: auto;
     border-radius: 5px;
     display: block;
+    margin-bottom: $base-spacing-unit
   }
 
 
