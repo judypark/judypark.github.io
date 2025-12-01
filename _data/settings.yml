@@ -29,7 +29,7 @@ portfolio-1-all-the-things:
   portfolio__title: All the Things We've Made
   portfolio__gallery:
     - image: /images/photography/all-the-things/head-down-butler-in-2025.jpg
-      title: Worker I 
+      title: Steelworker I 
       description: Indiana, USA (2025)
     - image: /images/photography/all-the-things/garbage-day-toronto-on-2025.jpg
       title: Garbage Day
@@ -39,11 +39,11 @@ portfolio-1-all-the-things:
       description: Indiana, USA (2025)
  
     - image: /images/photography/all-the-things/upwards-i-nyc-2025.jpg
-      title: Upwards I
+      title: Upward I
       description: New York, NY (2023)
     - image: /images/photography/all-the-things/judypark-upwards-ii-daydreaming-nyc-2025.jpg
-      title: Upwards II (Daydreaming) 
-      description: New York, NY (2023)        
+      title: Upward II (Daydreaming) 
+      description: New York, NY (2024)        
     - image: /images/photography/all-the-things/judypark-day-shift-at-the-steel-plant-butler-in-2025.jpg
       title: Day Shift at the Steel Plant
       description: Indiana, USA (2025)
@@ -55,16 +55,16 @@ portfolio-1-all-the-things:
       title: Steel and Dandelions
       description: Toronto, ON (2024)       
     - image: /images/photography/all-the-things/judypark-american-gas-bradford-pa-2025.jpg
-      title: Buy American!
+      title: Buy American
       description: Bradford, PA (2025)
 
 
 
     - image: /images/photography/all-the-things/10-needs-edits.jpg
-      title: Upwards III (Play to Win)
+      title: Upward III (Play to Win)
       description: Wheeling, West Virginia (2025)  
     - image: /images/photography/all-the-things/upwards-queens-ny-2025.jpg
-      title: Upwards IV
+      title: Upward IV
       description: Queens, NY (2025)
     - image: /images/photography/all-the-things/11-.jpg
       title: 
@@ -76,13 +76,13 @@ portfolio-1-all-the-things:
 #      description: (caption)
 
     - image: /images/photography/all-the-things/judypark-worker-ii-indiana-20205.jpg
-      title: Worker II
+      title: Steelworker II
       description: Indiana, USA (2025)  
     - image: /images/photography/all-the-things/baby-shark-cdmx-2023.jpg
       title: Baby Shark 
-      description: Mexico City, Mexico (~2023)      
+      description: Mexico City, Mexico (2024)      
     - image: /images/photography/all-the-things/the-alchemist-butler-in-2025.jpg
-      title: Worker III 
+      title: Steelworker III 
       description: Indiana, USA (2025)           
 
 
@@ -91,7 +91,7 @@ portfolio-1-all-the-things:
       description: New York, NY (2025)
     - image: /images/photography/all-the-things/16-nyc-2023.jpg
       title: Lunch Break
-      description: New York, NY (2023)      
+      description: New York, NY (2024)      
     - image: /images/photography/all-the-things/6-butler-IN-2025.jpg
       title: Solaris
       description: Butler, IN (2025)
@@ -138,15 +138,15 @@ paintings-1:
 
     - image: /images/paintings/dream canyon pink clouds-2025-acrylic on canvas-in.png
       title: dream canyon pink skies (2025)
-      description: acrylic on canvas, 10 x 20 in.
+      description: acrylic on canvas, 10 &times; 20 in.
 
     - image: /images/paintings/evening on avenue casgrain, 2023, acrylic on canvas, 24x30 in.jpg
       title: Evening on avenue casgrain (2023)
-      description: acrylic on canvas, 24 × 30 in.      
+      description: acrylic on canvas, 24 &times; 30 in.      
 
-    - image: /images/paintings/Ladylike-2019-acrylic on canvas-12x15in.jpg
+    - image: /images/paintings/Ladylike-2019-acrylic on canvas-12&times; 15in.jpg
       title: Ladylike (2019)
-      description: acrylic on canvas, 12 × 15 in.       
+      description: acrylic on canvas, 12 &times; 15 in.       
 
 
     - image: /images/paintings/primordial contemplations-2023-oil on canvas-in.jpg
@@ -154,28 +154,28 @@ paintings-1:
       description: oil on canvas     
     - image: /images/paintings/Dancer - newer photo.jpg
       title: Dancer (2020)
-      description: acrylic on canvas, 30 x 40 in.     
+      description: acrylic on canvas, 30 &times; 40 in.     
 
-    - image: /images/paintings/halmoni-2023-acrylic on found wood-10x14in.jpg
+    - image: /images/paintings/halmoni-2023-acrylic on found wood-10 &times; 14 in.jpg
       title: Halmoni (2023)
-      description: acrylic on found wood, 10 x 14 in.         
+      description: acrylic on found wood, 10 &times; 14 in.         
 
 
-    - image: /images/paintings/Portrait of a Woman on Prozac-2019- acrylic on canvas 20x16in.jpg
+    - image: /images/paintings/Portrait of a Woman on Prozac-2019- acrylic on canvas 20&times; 16in.jpg
       title: Portrait of a Woman on Prozac (2019)
-      description: acrylic on canvas, 20×16 in.
+      description: acrylic on canvas, 20 &times; 16 in.
     - image: /images/paintings/Untitled Door-2018-acrylic on found wood-80x30in.jpg
       title: Untitled Door (2018)
       description: acrylic on found wood (shown partially in photo), 80×30 in.
-    - image: /images/paintings/Morning by the Window, 2017, acrylic on canvas, 12x10 in.png
+    - image: /images/paintings/Morning by the Window, 2017, acrylic on canvas, 12 &times; 10 in.png
       title: Morning by the Window (2017)
-      description: acrylic on canvas, 12×10 in.
+      description: acrylic on canvas, 12 &times; 10 in.
     - image: /images/paintings/Campbells-Soup-2019-acrylic on canvas-20x20in.jpg
       title: ceci ne pas le soupe de campbell (2019)
-      description: acrylic on canvas, 20×20 in.
-    - image: /images/paintings/post nut clarity- 2017-acrylic on canvas- 10x10in.jpg
+      description: acrylic on canvas, 20 &times; 20 in.
+    - image: /images/paintings/post nut clarity- 2017-acrylic on canvas- 10&times; 10in.jpg
       title: post nut clarity (2017)
-      description: acrylic on canvas, 10×10 in.
+      description: acrylic on canvas, 10 &times; 10 in.
 
 
 #-------------------------------

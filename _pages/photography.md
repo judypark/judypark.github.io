@@ -3,9 +3,14 @@ layout: page-art
 title: Photography
 permalink: /photography/
 ---
-## Jump to Series:
-* [All the Things We've Made](/photography/#all-the-things)
-* [Who Will Save Us Now?](/photography/#who-will-save-us)
+
+<div class="container">
+  <h3>Jump to Series:</h3>
+  <ol>
+    <li><a href="#all-the-things">All the Things We've Made</a></li>
+    <li><a href="#who-will-save-us">Who Will Save Us Now?</a></li>
+  </ol>
+</div>
 
 <section id="all-the-things">
   {% include section-portfolio-all-the-things.html %}

@@ -223,13 +223,14 @@ table td {
 
 .button {
   display: inline-block;
-  padding: $base-font-size*0.5 $base-font-size*0.35;
-  font-size: $base-font-size;
-  font-weight: 600;
+  padding: $base-font-size*0.4 $base-font-size*0.4;
+  font-size: $base-font-size*0.8;
+  font-weight: 550;
   font-family: $base-font-family;
   text-decoration: none;
   border-radius: $base-font-size*0.5;
-  border: 1.5px solid var(--button-font-color);
+  border: 1.4px solid var(--button-font-color);
+  color: var(--button-font-color);
   outline: none;
   cursor: pointer;
   
@@ -248,9 +249,28 @@ table td {
 }
 
 /* PRIMARY BUTTON */
-.button--primary {
-  @extend .button;
+.button-row {
+  display: flex;
+  flex-direction: column;               // stack vertically
+  align-items: center;                  // center children horizontally
+  gap: $base-spacing-unit * 2;        // vertical space between buttons
 }
+
+/* wrapper around each button */
+.button-row .hero__buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;              // center the <a> inside
+}
+
+/* actual buttons: same width, centered */
+.button-row .button {
+  display: inline-block;
+  width: 100%;
+  max-width: 260px;                     // pick a width you like
+  text-align: center;
+}
+
 
 .lazy {
   opacity: 0;

@@ -22,10 +22,11 @@
   line-height: 1;
   font-weight: 700;
   transition: none;
-  color: var(--dark);   /* ← added */
+  color: var(--brand-color) !important;
+  
 
   &:hover {
-    color: var(--brand-color) !important;
+    color: var(--dark) !important;   /* ← added */
   }
 
   @media only screen and (max-width: $mobile) {
@@ -35,11 +36,11 @@
 
 /* Dark mode Logo */
 :root[dark] .logo__link {
-
-  color: var(--white) !important;   /* ← added */
+  color: var(--brand-color) !important;
+  
 
   &:hover {
-    color: var(--brand-color) !important;
+    color: var(--white) !important;   /* ← added */
   }
 
   @media only screen and (max-width: $mobile) {
@@ -292,14 +293,32 @@
   }
 }
 
-/* Dark mode nav text override */
-:root[dark] .nav__link {
-  color: var(--white) !important;
+/* === DARK MODE NAV – DESKTOP & TABLET === */
+:root[dark] .nav__list .nav__link {
+  color: var(--white) !important;               // nav text in dark mode
+}
 
+:root[dark] .nav__list .nav__link::after {
+  background: var(--brand-color) !important;    // underline bar in brand color
+}
 
-  &:hover {
+/* hover: brand text + brand underline */
+:root[dark] .nav__list .nav__link:hover {
+  color: var(--brand-color) !important;
+}
+
+/* keep current-page link highlighted in dark mode */
+:root[dark] .nav__list .nav__link.nav__link--current {
+  color: var(--brand-color) !important;
+}
+
+@media only screen and (max-width: $desktop) {
+  :root[dark] .main-nav .nav__list .nav__item .nav__link {
+    color: var(--white) !important;
+  }
+
+  :root[dark] .main-nav .nav__list .nav__item .nav__link.nav__link--current {
     color: var(--brand-color) !important;
-
-  }  
+  }
 }
 

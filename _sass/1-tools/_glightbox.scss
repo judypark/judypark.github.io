@@ -162,6 +162,7 @@
   touch-action: none;
   margin: auto;
   min-width: 200px;
+  padding-top: $base-spacing-unit;
 }
 
 .desc-top .gslide-image img,
@@ -302,7 +303,7 @@
 }
 
 .gslide-description p {
-  margin-bottom: 12px;
+  margin-bottom: 0;
 }
 
 .gslide-description p:last-child {
@@ -342,7 +343,10 @@
 .glightbox-mobile .glightbox-container .gslide-title {
   color: #f0f0f0;
   text-align: right !important;   
+  font-weight: 550 !important;
+  font-family: $heading-font-family;
   font-size: 1em;
+  line-height: 2;
 }
 
 .glightbox-mobile .glightbox-container .gslide-desc a {
@@ -362,26 +366,12 @@
   opacity: 0.4;
 }
 
-.glightbox-mobile .glightbox-clean .gdesc-inner {
-  bottom: 40px;
-  text-align: right !important;   
-  background: transparent;
-}
-
-.glightbox-mobile .gdesc-inner .gslide-desc {
-  line-height: 1.3;
-  text-align: right !important;   
-}
-
 .gdesc-open .gslide-media {
   -webkit-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
   opacity: 0.4;
 }
 
-.gdesc-open .gdesc-inner {
-  padding-bottom: 30px;
-}
 
 .gdesc-closed .gslide-media {
   -webkit-transition: opacity 0.5s ease;
@@ -503,48 +493,6 @@ iframe.wait-autoplay {
   background: transparent;
 }
 
-/* caption below image instead of overlay */
-.glightbox-clean .gdesc-inner {
-  position: static;              /* was absolute */
-  bottom: auto;                  /* no longer pinned to bottom */
-  width: 100%;
-  margin-left: 0;
-  margin-top: $base-font-size;            /* space between image and caption */
-  margin-bottom: $base-font-size;           /* space below caption */
-  padding: 0 24px 0;
-  text-align: left;
-  background: transparent;       /* remove black bar */
-}
-
-
-.glightbox-clean .gslide-title {
-  font-size: 1.2em;
-  margin-bottom: 8px;
-  line-height: 1;
-  text-align: right !important;   
-  color: #f0f0f0;
-}
-
-.glightbox-clean .gslide-desc {
-  font-size: 1em;
-  margin-bottom: 0;
-  line-height: 1.3;
-  text-align: right !important;   
-  color: #f0f0f0;
-}
-
-.gslide-desc {
-  a {
-    text-decoration: underline;
-    text-decoration-color: transparent;
-    color: #9e9e9e !important;
-
-    &:hover {
-      text-decoration-color: #fff;
-      color: #fff !important;
-    }
-  }
-}
 
 .glightbox-clean .gslide-video {
   background: #000;
@@ -599,6 +547,192 @@ iframe.wait-autoplay {
 .glightbox-clean .gclose:hover {
   opacity: 1;
 }
+
+/* caption below image instead of overlay */
+.glightbox-clean .gdesc-inner {
+  position: static;              /* was absolute */
+  bottom: auto;                  /* no longer pinned to bottom */
+  width: 100%;
+  margin-left: 0;
+  margin-top: $base-font-size*0.5;            /* space between image and caption */
+  margin-bottom: $base-font-size;           /* space below caption */
+  padding: 0 0 0;
+  background: transparent;       /* remove black bar */
+}
+
+
+.glightbox-clean .gslide-title {
+  font-size: 1em;
+  line-height: 1.5;
+  letter-spacing: normal !important;   // small horizontal spacing between characters
+  word-spacing: normal;       // small spacing between words
+  text-align: right !important;   
+  font-weight: 550!important;
+  font-family: $base-font-family !important;
+  color: #f0f0f0;
+  max-height: none !important;  // no artificial cap
+  margin-top: 0 !important;     // rely on .gdesc-inner margins only
+  margin-bottom: 0 !important;
+  padding: 0 0 0;
+}
+
+.glightbox-clean .gslide-desc {
+  font-size: 0.85em;
+  line-height: 1;
+  text-align: right !important;   
+  font-family: $base-font-family !important;
+  font-weight: 500!important;
+  font-family: $base-font-family !important;
+  color: #f0f0f0;
+  max-height: none !important;  // no artificial cap
+  margin-top: 0 !important;     // rely on .gdesc-inner margins only
+  margin-bottom: 0 !important;
+  padding: 0 0 0;
+}
+
+
+/* === GLIGHTBOX MOBILE-ONLY OVERRIDES (≤ $tablet) === */
+@media (max-width: $tablet) {
+
+  /* 1. Center slide in viewport */
+  .glightbox-container .gslider {
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Center vertical + horizontal inside the slide */
+  .glightbox-container .ginner-container {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    height: 100vh; /* full viewport height */
+  }
+
+  .gslide-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    width: 100%;
+  }
+
+  /* 2. Image sizing: never overflow vertically; share viewport with caption */
+  .gslide-image img {
+    max-width: 100vw;
+    max-height: calc(100vh - (#{$base-font-size} * 4)) !important;    /* <= key: image uses at most ~60% of screen */
+    width: auto;
+    height: auto;
+
+    display: block;
+    padding: 0;                       /* no extra vertical padding */
+    float: none;
+    outline: none;
+    border: none;
+    margin: auto;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    -o-object-fit: contain;
+    object-fit: contain;
+
+    -ms-touch-action: none;
+    touch-action: none;
+
+    min-width: 200px;                     /* allow shrinking on narrow screens */
+    padding-top: $base-spacing-unit;
+  }
+
+  /* 3. Caption below image, scrollable if long, no overflow outside viewport */
+.glightbox-mobile .glightbox-container .gslide-description {
+    position: static !important;
+    bottom: auto !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+
+    height: auto !important;
+    max-height: calc(#{$base-font-size} * 4) !important;   /* <-- stays */
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+
+    -webkit-box-ordinal-group: 3 !important;
+    -ms-flex-order: 2 !important;
+    order: 2 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+
+    /* === NEW VERTICAL CENTERING WITHIN SAME HEIGHT === */
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;   /* center vertically */
+    align-items: center !important;       /* center horizontally */
+}
+
+  .glightbox-mobile .gdesc-inner {
+    position: static !important;
+    bottom: auto !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: center !important;
+  }
+
+  /* 4. Caption typography (tight, centered) */
+  .glightbox-mobile .glightbox-container .gslide-title {
+    color: #f0f0f0;
+    font-size: 0.75em !important;
+    font-weight: 550 !important;
+    font-family: $base-font-family !important;
+    line-height: 2 !important;
+    text-align: center !important;
+
+    letter-spacing: normal !important;
+    word-spacing: normal;
+
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-top: $base-spacing-unit !important;
+  }
+
+  .glightbox-mobile .glightbox-container .gslide-desc,
+  .glightbox-mobile .glightbox-container .gslide-desc * {
+    color: #f0f0f0;
+    font-size: 0.7em !important;
+    font-family: $base-font-family !important;
+    font-weight: 450 !important;
+    text-align: center !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
 
 
 /*CSS Animations*/
@@ -961,81 +1095,5 @@ iframe.wait-autoplay {
 @media screen and (max-height: 420px) {
   .goverlay {
     background: #000;
-  }
-}
-
-/* === GLIGHTBOX MOBILE-ONLY OVERRIDES (≤ $tablet) === */
-@media (max-width: $tablet) {
-
-  /* 1. Make the slide content center nicely in the viewport */
-  .glightbox-container .gslider {
-    align-items: center !important;
-    justify-content: center !important;
-  }
-
-  .glightbox-container .ginner-container {
-    height: 100vh !important;          // full viewport height
-    max-width: 100% !important;
-    margin: 0 auto !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important; // vertical centering
-    align-items: center !important;     // horizontal centering
-  }
-
-  .gslide-image {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-  }
-
-  /* 2. Image sizing: fit within window, leave room for caption */
-  .gslide-image img {
-    max-width: 100vw !important;
-    max-height: calc(100vh - (#{$base-font-size} * 3)) !important;
-    width: auto !important;
-    height: auto !important;
-    margin: 0 auto !important;
-  }
-
-  /* 3. Caption below image, not overlay, and centered */
-  .glightbox-mobile .glightbox-container .gslide-description {
-    position: static !important;        // remove overlay behavior
-    bottom: auto !important;
-    width: 100% !important;
-    max-width: 100vw !important;
-    height: auto !important;
-    max-height: none !important;
-    -webkit-box-ordinal-group: 3 !important;
-    -ms-flex-order: 2 !important;
-    order: 2 !important;               // force below image
-    background: transparent !important;
-  }
-
-  .glightbox-mobile .gdesc-inner {
-    position: static !important;
-    bottom: auto !important;
-    width: 100% !important;
-    margin-top: $base-font-size auto 0;            /* space between image and caption */
-    margin-bottom: $base-font-size auto 0;           /* space below caption */
-    padding: 0 16px !important;
-    text-align: center !important;
-    background: transparent !important;
-  }
-
-  /* 4. Caption typography (smaller + centered) */
-  .glightbox-mobile .glightbox-container .gslide-title {
-    color: #f0f0f0;
-    font-size: 0.85em !important;
-    font-weight: 500 !important;
-    text-align: center !important;
-  }
-
-  .glightbox-mobile .glightbox-container .gslide-desc,
-  .glightbox-mobile .glightbox-container .gslide-desc * {
-    color: #f0f0f0;
-    font-size: 0.75em !important;
-    font-weight: 400 !important;
-    text-align: center !important;
   }
 }
