@@ -240,7 +240,7 @@ table td {
     filter 0.25s ease;
 
   &:hover {
-    background-color: var(--button-background-hover);
+    background-color: var(--button-font-color);
     color: var(--button-font-hover);
     transform: scale(1.05);
 
