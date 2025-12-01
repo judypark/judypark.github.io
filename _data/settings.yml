@@ -104,28 +104,28 @@ portfolio-1-all-the-things:
 photo-2-who-will-save:
   portfolio__title: Who Will Save Us Now?
   portfolio__gallery:
-    - image: /images/photography/who-will-save/1-girls-2024.jpg
+    - image: /images/photography/who-will-save/judypark-girls-seoul-2024.jpg
       title: Girls
       description: Seoul, Korea (2024)
-    - image: /images/photography/who-will-save/4-montreal.jpg
-      title: le deppaneur dans le noir
+    - image: /images/photography/who-will-save/depanneur-in-the-night-montreal-qc-2025.jpg
+      title: In the Night
       description: Montreal (2024)
     - image: /images/photography/who-will-save/6-club cumming-2025.jpg
       title: Queens of Club Cumming
       description: New York, NY (2025)      
 
-    - image: /images/photography/who-will-save/2-smoke break.jpg
+    - image: /images/photography/who-will-save/smoke-break-i-new-haven-ct-2024.jpg
       title: Smoke Break I
       description: New Haven, CT (2024)         
-    - image: /images/photography/who-will-save/3-needs-edits.jpg
-      title: Can You Hear Me? 
+    - image: /images/photography/who-will-save/glass-shrine-cdmx-2024.jpg
+      title: Glass Shrine (Can You Hear Me?)
       description: Mexico City, Mexico (2024)        
     - image: /images/photography/who-will-save/8-smoke break II-2025.jpg
       title: Smoke Break II 
       description: Queens, NY (2025)  
 
-    - image: /images/photography/who-will-save/7-unstuck in time in woodside, queens.jpg
-      title: Unstuck at Woodside Station
+    - image: /images/photography/who-will-save/woodside-station-queens-ny-2025.jpg
+      title: Woodside Station
       description: Queens, NY (2025)         
     - image: /images/photography/who-will-save/5-penn station superhero.jpg
       title: Astrogalaxica Escalatorhero
@@ -137,7 +137,7 @@ paintings-1:
   portfolio__gallery:
 
     - image: /images/paintings/dream canyon pink clouds-2025-acrylic on canvas-in.png
-      title: dream canyon pink skies (2025)
+      title: dream canyon pink clouds (2025)
       description: acrylic on canvas, 10&times;20 in.
 
     - image: /images/paintings/evening on avenue casgrain, 2023, acrylic on canvas, 24x30 in.jpg
@@ -176,6 +176,9 @@ paintings-1:
     - image: /images/paintings/post nut clarity- 2017-acrylic on canvas- 10x10in.jpg
       title: post nut clarity (2017)
       description: acrylic on canvas, 10&times;10 in.
+    - image: /images/paintings/flower.jpg
+      title: Hibiscus (2018)
+      description: acrylic on canvas, 6&times;6 in.
 
 
 #-------------------------------
