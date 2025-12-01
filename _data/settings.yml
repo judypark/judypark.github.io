@@ -29,7 +29,7 @@ portfolio-1-all-the-things:
   portfolio__title: All the Things We've Made
   portfolio__gallery:
     - image: /images/photography/all-the-things/head-down-butler-in-2025.jpg
-      title: Keep Your Head Down 
+      title: Worker I 
       description: Indiana, USA (2025)
     - image: /images/photography/all-the-things/garbage-day-toronto-on-2025.jpg
       title: Garbage Day
@@ -51,50 +51,50 @@ portfolio-1-all-the-things:
     - image: /images/photography/all-the-things/judypark-iron-tap-no-2-indiana-usa-2025.jpg
       title: Iron Tap No. 2
       description: Indiana, USA (2025)
-    - image: /images/photography/all-the-things/15-.jpg
-      title: (title)
-      description: (caption)           
-    - image: /images/photography/all-the-things/7-.jpg
-      title: (title)
-      description: (caption)
+    - image: /images/photography/all-the-things/judypark-steel-and-dandelion-toronto-on.jpg
+      title: Steel and Dandelions
+      description: Toronto, ON (2024)       
+    - image: /images/photography/all-the-things/judypark-american-gas-bradford-pa-2025.jpg
+      title: Buy American!
+      description: Bradford, PA (2025)
 
 
 
     - image: /images/photography/all-the-things/10-needs-edits.jpg
-      title: (title)
-      description: (caption)
+      title: Upwards III (Play to Win)
+      description: Wheeling, West Virginia (2025)  
     - image: /images/photography/all-the-things/upwards-queens-ny-2025.jpg
-      title: Upwards (2025)
-      description: Queens, NY   
+      title: Upwards IV
+      description: Queens, NY (2025)
     - image: /images/photography/all-the-things/11-.jpg
-      title: (title)
-      description: (caption)
+      title: 
+      description: Indiana, USA (2025)  
 
 
 #    - image: /images/photography/all-the-things/14-needs-edits.jpg
 #      title: (title)
 #      description: (caption)
 
-    - image: /images/photography/all-the-things/9-.jpg
-      title: (title)
-      description: Butler, IN (2025) 
-    - image: /images/photography/all-the-things/19-baby shark.jpg
-      title: Baby Shark (~2023)
-      description: Mexico City      
+    - image: /images/photography/all-the-things/judypark-worker-ii-indiana-20205.jpg
+      title: Worker II
+      description: Indiana, USA (2025)  
+    - image: /images/photography/all-the-things/baby-shark-cdmx-2023.jpg
+      title: Baby Shark 
+      description: Mexico City, Mexico (~2023)      
     - image: /images/photography/all-the-things/the-alchemist-butler-in-2025.jpg
-      title: The Alchemist
+      title: Worker III 
       description: Indiana, USA (2025)           
 
 
     - image: /images/photography/all-the-things/20-halloween night.jpg
-      title: Night Shift on Halloween (2025)
-      description: New York, NY
+      title: Night Shift on Halloween
+      description: New York, NY (2025)
     - image: /images/photography/all-the-things/16-nyc-2023.jpg
-      title: (2023)
-      description: New York, NY      
+      title: Lunch Break
+      description: New York, NY (2023)      
     - image: /images/photography/all-the-things/6-butler-IN-2025.jpg
-      title: Solaris (2025)
-      description: Butler, IN 
+      title: Solaris
+      description: Butler, IN (2025)
        
     #- image: /images/photography/all-the-things/9-.jpg
     #  title: (title)
@@ -105,31 +105,31 @@ photo-2-who-will-save:
   portfolio__title: Who Will Save Us Now?
   portfolio__gallery:
     - image: /images/photography/who-will-save/1-girls-2024.jpg
-      title: Girls (2024)
-      description:
+      title: Girls
+      description: Seoul, Korea (2024)
     - image: /images/photography/who-will-save/4-montreal.jpg
-      title: Montreal (~2024)
-      description: 
+      title: le deppaneur dans le noir
+      description: Montreal (2024)
     - image: /images/photography/who-will-save/6-club cumming-2025.jpg
-      title: Club Cumming (2025)
-      description:         
+      title: Queens of Club Cumming
+      description: New York, NY (2025)      
 
     - image: /images/photography/who-will-save/2-smoke break.jpg
-      title: Smoke Break I (~2024)
-      description:         
+      title: Smoke Break I
+      description: New Haven, CT (2024)         
     - image: /images/photography/who-will-save/3-needs-edits.jpg
-      title: At Thy Shrine (~2024)
-      description:         
+      title: Can You Hear Me? 
+      description: Mexico City, Mexico (2024)        
     - image: /images/photography/who-will-save/8-smoke break II-2025.jpg
-      title: Smoke Break II (2025)
-      description:  
+      title: Smoke Break II 
+      description: Queens, NY (2025)  
 
     - image: /images/photography/who-will-save/7-unstuck in time in woodside, queens.jpg
-      title: Unstuck in Time at Woodside Station (2025)
-      description:         
+      title: Unstuck at Woodside Station
+      description: Queens, NY (2025)         
     - image: /images/photography/who-will-save/5-penn station superhero.jpg
-      title: Untitled (2025)
-      description:  
+      title: Astrogalaxica Escalatorhero
+      description: New York, NY (2025)
 
 # Portfolio Settings - paintings
 paintings-1:
