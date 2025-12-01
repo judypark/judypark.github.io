@@ -2,7 +2,6 @@
 
 /* Portfolio wrapper */
 .portfolio__view {
-  padding-left: 0px;
   border-radius: 0;              // no background here
 }
 
@@ -201,11 +200,12 @@
 /* === PORTFOLIO – MOBILE OVERRIDES (phones)  */
 @media only screen and (max-width: $tablet) {
   .section.portfolio .portfolio__image {
-    width: 900%;
-    max-width: 90%;
+    width: 100%;
+    max-width: 100%;
     height: auto;              // let image set its own height
     object-fit: cover;         // keep nice cropping but no forced height
     display: block;
+    margin: 0 auto;            // center inside its column
   }
 
   /* optional: make the clickable wrapper also full-width */
@@ -219,5 +219,6 @@
   .section.portfolio .col {
     width: 100%;
     max-width: 100%;
+    margin: 0 auto;
   }
 }
