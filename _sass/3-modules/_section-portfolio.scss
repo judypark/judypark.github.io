@@ -103,12 +103,6 @@
       }
     }
   }
-
-  .portfolio__item {
-    max-width: 460px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 /* Portfolio card item – desktop default */
@@ -204,49 +198,4 @@
 }
 
 
-/* === PORTFOLIO – MOBILE OVERRIDES (phones) === */
-
-@media only screen and (max-width: $tablet) {
-
-  /* soften container on mobile */
-  .portfolio__view {
-    border-radius: 0px;
-    // no background
-  }
-
-  /* MOBILE list view layout */
-  .view-list {
-    .portfolio__gallery {
-      max-width: none;      // take full width on mobile
-      margin: 0;
-
-      .col {
-        width: 100%;
-      }
-
-      .portfolio__link {
-        padding-top: 0;   // tighter aspect in list view (mobile)
-      }
-    }
-  }
-
-  /* MOBILE card styling */
-  .portfolio__item {
-    padding: $base-spacing-unit;
-    border-radius: 0px;
-    // no background
-  }
-
-  .portfolio__link {
-    padding-top: 0;      // default aspect ratio in grid
-    border-radius: 0px;
-  }
-
-  .portfolio__link::after {
-    border-radius: 0px;   // keep shape, no background
-  }
-
-  .section.portfolio .portfolio__image {
-    border-radius: 0px;
-  }
-}
+/* === PORTFOLIO – MOBILE OVERRIDES (phones)  */
