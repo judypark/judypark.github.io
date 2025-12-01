@@ -220,5 +220,14 @@
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
+
   }
+
+  /* turn off icon for mobile*/
+  .portfolio__icon {
+  display: none;
+  width: 0px;
+  height: 0px;
+  }
+
 }
