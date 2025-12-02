@@ -78,7 +78,6 @@
   @media only screen and (max-width: $tablet) {
     flex: 0 0 100%;
     max-width: 100%;
-    text-align: center;
   }
 
   .hero__buttons {
@@ -87,7 +86,7 @@
 
     justify-content: center;       /* ⬅ center the whole button row */
     align-items: center;
-    gap: $base-spacing-unit*1.5  ;      /* ⬅ space between buttons */
+    gap: $base-spacing-unit  ;      /* ⬅ space between buttons */
     margin-top: $base-spacing-unit*1.5 ;
 
     @media only screen and (max-width: $mobile) {

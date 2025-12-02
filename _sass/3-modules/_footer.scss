@@ -2,13 +2,14 @@
 .footer {
   margin: $base-spacing-unit 0 $base-spacing-unit*2;
 
-  @media only screen and (max-width: $mobile) {
-    margin: $base-spacing-unit 0 $base-spacing-unit*2;
+  @media only screen and (max-width: $tablet) {
+    margin: $base-spacing-unit 0 $base-spacing-unit;
+    justify-content: center;
   }
 }
 
 .social {
-  margin-bottom: 34px;
+  margin-bottom: $base-spacing-unit*2;
 
   .social__list {
     display: flex;
@@ -60,8 +61,8 @@
 }
 
 .social__icon-img {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   display: inline-block;
   vertical-align: middle;
   margin-right: 6px;
