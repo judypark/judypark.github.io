@@ -28,13 +28,13 @@ menu__settings:
 portfolio-1-all-the-things:
   portfolio__title: All the Things We've Made
   portfolio__gallery:
-    - image: /images/photography/all-the-things/head-down-butler-in-2025.jpg
+    - image: /images/photography/all-the-things/judypark-steelworker-i-indiana-2025.jpg
       title: Steelworker I 
       description: Indiana, USA (2025)
     - image: /images/photography/all-the-things/garbage-day-toronto-on-2025.jpg
       title: Garbage Day
       description: Toronto, ON (2025)    
-    - image: /images/photography/all-the-things/tapping-machine-butler-in-2025.jpg
+    - image: /images/photography/all-the-things/judypark-tapping-machine-indiana-2025.jpg
       title: Tapping Machine
       description: Indiana, USA (2025)
  
@@ -57,7 +57,6 @@ portfolio-1-all-the-things:
     - image: /images/photography/all-the-things/judypark-american-gas-bradford-pa-2025.jpg
       title: Buy American
       description: Bradford, PA (2025)
-
 
 
     - image: /images/photography/all-the-things/10-needs-edits.jpg
@@ -167,7 +166,7 @@ paintings-1:
     - image: /images/paintings/Untitled Door-2018-acrylic on found wood-80x30in.jpg
       title: Untitled Door (2018)
       description: acrylic on found wood (shown partially in photo), 80×30 in.
-    - image: /images/paintings/Morning by the Window, 2017, acrylic on canvas, 12x10 in.jpg
+    - image: /images/paintings/judypark-morning-by-the-window-2017-acrylic-on-canvas-12x10.png
       title: Morning by the Window (2017)
       description: acrylic on canvas, 12&times;10 in.
     - image: /images/paintings/Campbells-Soup-2019-acrylic on canvas-20x20in.jpg
