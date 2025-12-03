@@ -99,16 +99,19 @@
 
   /* Intro paragraphs: use base body font, just tweak size slightly if desired */
   .hero__intro {
-    font-size: $base-font-size; // a tiny bit larger than body
+    font-size: $base-font-size; 
     line-height: $base-line-height;
     margin-bottom: $base-spacing-unit;
+    justify-content: left;
 
     @media only screen and (max-width: $desktop) {
       font-size: $base-font-size;
+      justify-content: left;
     }
 
-    @media only screen and (max-width: $mobile) {
+    @media only screen and (max-width: $tablet) {
       font-size: $base-font-size;
+      justify-content: left;
     }
   }
 

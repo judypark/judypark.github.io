@@ -42,7 +42,7 @@ portfolio-1-all-the-things:
       title: Upward I
       description: New York, NY (2023)
     - image: /images/photography/all-the-things/judypark-upwards-ii-daydreaming-nyc-2025.jpg
-      title: Upward II (Daydreaming) 
+      title: Upward II (dreaming of...) 
       description: New York, NY (2024)        
     - image: /images/photography/all-the-things/judypark-day-shift-at-the-steel-plant-butler-in-2025.jpg
       title: Day Shift at the Steel Plant
@@ -52,7 +52,7 @@ portfolio-1-all-the-things:
       title: Iron Tap No. 2
       description: Indiana, USA (2025)
     - image: /images/photography/all-the-things/judypark-steel-and-dandelion-toronto-on.jpg
-      title: Steel and Dandelions
+      title: Through the Cracks
       description: Toronto, ON (2024)       
     - image: /images/photography/all-the-things/judypark-american-gas-bradford-pa-2025.jpg
       title: Buy American
@@ -60,7 +60,7 @@ portfolio-1-all-the-things:
 
 
     - image: /images/photography/all-the-things/10-needs-edits.jpg
-      title: Upward III (Play to Win)
+      title: Upward III (play to win)
       description: Wheeling, West Virginia (2025)  
     - image: /images/photography/all-the-things/upwards-queens-ny-2025.jpg
       title: Upward IV
@@ -78,7 +78,7 @@ portfolio-1-all-the-things:
       title: Steelworker II
       description: Indiana, USA (2025)  
     - image: /images/photography/all-the-things/baby-shark-cdmx-2023.jpg
-      title: Baby Shark 
+      title: Baby Sharks and Brujitas
       description: Mexico City, Mexico (2024)      
     - image: /images/photography/all-the-things/the-alchemist-butler-in-2025.jpg
       title: Steelworker III 
@@ -116,12 +116,12 @@ photo-2-who-will-save:
     - image: /images/photography/who-will-save/smoke-break-i-new-haven-ct-2024.jpg
       title: Smoke Break I
       description: New Haven, CT (2024)         
-    - image: /images/photography/who-will-save/glass-shrine-cdmx-2024.jpg
-      title: Glass Shrine (Can You Hear Me?)
-      description: Mexico City, Mexico (2024)        
     - image: /images/photography/who-will-save/8-smoke break II-2025.jpg
       title: Smoke Break II 
       description: Queens, NY (2025)  
+    - image: /images/photography/who-will-save/glass-shrine-cdmx-2024.jpg
+      title: Glass Shrine (Can You Hear Me?)
+      description: Mexico City, Mexico (2024)     
 
     - image: /images/photography/who-will-save/woodside-station-queens-ny-2025.jpg
       title: Woodside Station
@@ -129,6 +129,14 @@ photo-2-who-will-save:
     - image: /images/photography/who-will-save/5-penn station superhero.jpg
       title: Astrogalaxica Escalatorhero
       description: New York, NY (2025)
+    - image: /images/photography/who-will-save/judypark-messiah-nyc-2025.jpg
+      title: Our Messiah
+      description: New York, NY (2025)
+
+    - image: /images/photography/who-will-save/judypark-long-day-in-the-big-apple-nyc-2025.jpg
+      title: Long Day in the Big Apple
+      description: New York, NY (2025)
+      
 
 # Portfolio Settings - paintings
 paintings-1:
