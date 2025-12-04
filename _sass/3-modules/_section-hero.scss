@@ -12,11 +12,10 @@
 .hero__container {
   display: flex;
   align-items: flex-start;
+  justify-content: center;
   gap: $base-spacing-unit*2; 
   @media only screen and (max-width: $tablet) {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
 }
 
@@ -30,7 +29,6 @@
   align-items: center;
   gap: $base-font-size*1.5; /* space between photo + CV lines */
 
-
     /* for tablet */
   @media only screen and (max-width: $desktop) {
     flex: 0 0 40%;
@@ -42,14 +40,6 @@
     flex: 0 0 50%;
     max-width: 50%;
   }
-}
-
-.hero__cv {
-  margin: 0;
-  font-size: $base-font-size*0.9;
-  color: var(--text-alt-color);
-  line-height: $base-line-height;
-  margin-bottom: 0;
 }
 
 /* Hero image container (left column) */
@@ -87,8 +77,6 @@
     flex-direction: row;
 
     justify-content: center;       /* ⬅ center the whole button row */
-    align-items: center;
-    gap: $base-spacing-unit*0.8  ;      /* ⬅ space between buttons */
     margin-top: $base-spacing-unit*1.5 ;
 
     @media only screen and (max-width: $mobile) {
@@ -101,19 +89,20 @@
 
   /* Intro paragraphs: use base body font, just tweak size slightly if desired */
   .hero__intro {
-    font-size: $base-font-size; 
+    font-size: $base-font-size*1.1; 
     line-height: $base-line-height;
     margin-bottom: $base-spacing-unit;
     justify-content: left;
+    text-align: justify;
 
     @media only screen and (max-width: $desktop) {
       font-size: $base-font-size;
-      justify-content: left;
     }
 
     @media only screen and (max-width: $tablet) {
       font-size: $base-font-size;
       justify-content: left;
+      text-align: left !important;
     }
   }
 
