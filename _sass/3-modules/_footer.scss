@@ -30,7 +30,7 @@
   .social__link {
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: $base-font-size;
     font-weight: 500;
     color: var(--heading-font-color);
   
@@ -45,7 +45,7 @@
     }
 
     .social__link {
-      font-size: 17px;
+      font-size: $base-font-size*0.9;
     }
   }
 
