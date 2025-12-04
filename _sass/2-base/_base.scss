@@ -223,10 +223,10 @@ table td {
 
 .button {
   display: inline-block;
-  padding: $base-font-size*0.4 $base-font-size*0.4;
+  padding: $base-font-size*0.5 $base-font-size*0.5;
   font-size: $base-font-size*0.8;
   font-weight: 550;
-  font-family: $base-font-family;
+  font-family: $base-font-family !important;
   text-decoration: none;
   border-radius: $base-font-size*0.5;
   border: 1.4px solid var(--button-font-color);

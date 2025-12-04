@@ -129,13 +129,15 @@ photo-2-who-will-save:
     - image: /images/photography/who-will-save/5-penn station superhero.jpg
       title: Astrogalaxica Escalatorhero
       description: New York, NY (2025)
+    - image: /images/photography/who-will-save/judypark-long-day-in-the-big-apple-nyc-2025.jpg
+      title: Long Day in the Big Apple
+      description: New York, NY (2025)
+
     - image: /images/photography/who-will-save/judypark-messiah-nyc-2025.jpg
       title: Our Messiah
       description: New York, NY (2025)
 
-    - image: /images/photography/who-will-save/judypark-long-day-in-the-big-apple-nyc-2025.jpg
-      title: Long Day in the Big Apple
-      description: New York, NY (2025)
+
       
 
 # Portfolio Settings - paintings

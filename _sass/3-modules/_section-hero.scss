@@ -69,6 +69,8 @@
   flex: 0 0 75%;
   max-width: 75%;
   color: var(--text-alt-color);
+  justify-content: left !important;
+  align-items: left !important;
 
   @media only screen and (max-width: $desktop) {
     flex: 0 0 60%;
@@ -86,7 +88,7 @@
 
     justify-content: center;       /* ⬅ center the whole button row */
     align-items: center;
-    gap: $base-spacing-unit  ;      /* ⬅ space between buttons */
+    gap: $base-spacing-unit*0.8  ;      /* ⬅ space between buttons */
     margin-top: $base-spacing-unit*1.5 ;
 
     @media only screen and (max-width: $mobile) {
