@@ -39,6 +39,7 @@
   @media only screen and (max-width: $tablet) {
     flex: 0 0 50%;
     max-width: 50%;
+    justify-content: center;
   }
 }
 
@@ -79,7 +80,7 @@
     justify-content: center;       /* ⬅ center the whole button row */
     margin-top: $base-spacing-unit*1.5 ;
 
-    @media only screen and (max-width: $mobile) {
+    @media only screen and (max-width: $tablet) {
       flex-direction: column;
       justify-content: center;
       align-items: center;         /* ⬅ keep them centered when stacked */
@@ -101,7 +102,7 @@
 
     @media only screen and (max-width: $tablet) {
       font-size: $base-font-size;
-      justify-content: left;
+      justify-content: center;
       text-align: left !important;
     }
   }
