@@ -28,72 +28,102 @@ menu__settings:
 portfolio-1-all-the-things:
   portfolio__title: All the Things We've Made
   portfolio__gallery:
-    - image: /images/photography/all-the-things/judypark-steelworker-i-indiana-2025.jpg
+    - image: /images/photography/all-the-things/1-steelworker-i-steel-IN-2025.jpg
       title: Steelworker I 
-      description: Indiana, USA (2025)
-    - image: /images/photography/all-the-things/garbage-day-toronto-on-2025.jpg
-      title: Garbage Day
-      description: Toronto, ON (2025)    
-    - image: /images/photography/all-the-things/judypark-tapping-machine-indiana-2025.jpg
+      description: Steel plant in Indiana, USA (2025)
+    - image: /images/photography/all-the-things/2-tapping-machine-steel-IN-2025.jpg
       title: Tapping Machine
-      description: Indiana, USA (2025)
+      description: Steel plant in Indiana, USA (2025)
+    - image: /images/photography/all-the-things/3-daniel-safety-workwear-toronto-2025-4x3.jpg
+      title: Daniel Safety Workwear
+      description: Toronto, Ontario, Canada (2025)
  
-    - image: /images/photography/all-the-things/upwards-i-nyc-2025.jpg
-      title: Upward I
-      description: New York, NY (2023)
-    - image: /images/photography/all-the-things/judypark-upwards-ii-daydreaming-nyc-2025.jpg
-      title: Upward II (dreaming of...) 
-      description: New York, NY (2024)        
-    - image: /images/photography/all-the-things/judypark-day-shift-at-the-steel-plant-butler-in-2025.jpg
+    - image: /images/photography/all-the-things/4-upward-i-wheeling-WV-2025-4x3.jpg
+      title: Upward I (Play to Win)
+      description: Wheeling, West Virginia, USA (2025)
+    - image: /images/photography/all-the-things/5-tapping-floor-iron-QC-2023-4x3.jpg
+      title: Tapping Floor, Near Furnace Eight
+      description: Iron plant in Quebec, Canada (2023) 
+    - image: /images/photography/all-the-things/6-plant-logic-controller-steel-WV-2025-4x3.jpg
+      title: Plant Logic Controller
+      description: Steel Plant in West Virginia, USA (2025)
+
+    - image: /images/photography/all-the-things/7-upwards-ii-queens-ny-2025-4x3.jpg
+      title: Upward II (American Dream)
+      description: Queens, New York, USA (2025)
+    - image: /images/photography/all-the-things/8-taphole-repair-metal-guatemala-2022-4x3.jpg
+      title: Taphole Repair
+      description: Metal Processing Plant in Guatemala (2022)   
+    - image: /images/photography/all-the-things/9-billboard-advertising-firearm-guate-2023-4x3.jpg
+      title: Billboard Advertising Firearm
+      description: Guatemala City, Guatemala (2022)
+
+
+    - image: /images/photography/all-the-things/10-corrugated-galvanized-steel-santa-cruz-guatemala-2022.jpg
+      title: Corrugated Galvanized Steel (Cost-Effective, Rustproof)
+      description: Santa Cruz la Laguna, Guatemala (2022)  
+    - image: /images/photography/all-the-things/11-belt-drive-and-crane-steel-IN-2025-4x3.jpg
+      title: Belt Drive and Crane
+      description: Steel Plant in Indiana, USA (2025)
+    - image: /images/photography/all-the-things/12-apparition-at-the-furnace-steel-IN-2025-4x3.jpg
+      title: Apparition at the Furnace
+      description: Steel Plant in Indiana, USA (2025)  
+
+    - image: /images/photography/all-the-things/13-baby-shark-cdmx-2023.jpg
+      title: Baby Shark
+      description: Mexico City, Mexico (2023) 
+    - image: /images/photography/all-the-things/14-before-the-tap-steel-in-2025.jpg
+      title: Before the Tap
+      description: Steel Plant in Indiana, USA (2025)
+    - image: /images/photography/all-the-things/15-day-shift-at-the-steel-plant-butler-in-2025.jpg
       title: Day Shift at the Steel Plant
-      description: Indiana, USA (2025)
+      description: Steel Plant in Indiana, USA (2025)  
 
-    - image: /images/photography/all-the-things/judypark-iron-tap-no-2-indiana-usa-2025.jpg
-      title: Iron Tap No. 2
-      description: Indiana, USA (2025)
-    - image: /images/photography/all-the-things/judypark-steel-and-dandelion-toronto-on.jpg
-      title: Through the Cracks
-      description: Toronto, ON (2024)       
-    - image: /images/photography/all-the-things/judypark-american-gas-bradford-pa-2025.jpg
-      title: Buy American
-      description: Bradford, PA (2025)
+    - image: /images/photography/all-the-things/16-lunch-break-ii-nickel-guatemala-2022-4x3.jpg
+      title: Lunch Break I
+      description: Metal Processing Plant in Guatemala (2022)
+    - image: /images/photography/all-the-things/17-street-vendor-resting-antigua-guatemala-2022-4x3.jpg
+      title: Street Vendor Resting
+      description: Antigua Guatemala, Guatemala (2022)
+    - image: /images/photography/all-the-things/18-garbage-day-toronto-on-2025-4x3.jpg
+      title: Garbage Day
+      description: Toronto, Ontario, Canada (2025)  
 
-
-    - image: /images/photography/all-the-things/10-needs-edits.jpg
-      title: Upward III (play to win)
-      description: Wheeling, West Virginia (2025)  
-    - image: /images/photography/all-the-things/upwards-queens-ny-2025.jpg
-      title: Upward IV
-      description: Queens, NY (2025)
-    - image: /images/photography/all-the-things/11-.jpg
-      title: 
-      description: Indiana, USA (2025)  
-
+    - image: /images/photography/all-the-things/19-steel-and-dandelion-toronto-on.jpg
+      title: Steel Beams and Dandelions
+      description: Toronto, Ontario, Canada (2025)
+    - image: /images/photography/all-the-things/20-electrode-change-steel-wv-2025.jpg
+      title: Electrode Change
+      description: Steel Plant in West Virginia, USA (2025)
+    - image: /images/photography/all-the-things/21-view-from-under-furnace-eight-iron-QC-2023-4x3.jpg
+      title: View from Under Furnace Eight
+      description: Iron plant in Quebec, Canada (2023)
 
 #    - image: /images/photography/all-the-things/14-needs-edits.jpg
 #      title: (title)
 #      description: (caption)
 
-    - image: /images/photography/all-the-things/judypark-worker-ii-indiana-20205.jpg
+    - image: /images/photography/all-the-things/22-halloween night-nyc-2025.jpg
+      title: Halloween Night/Night Shift
+      description: New York, New York, USA (2025) 
+    - image: /images/photography/all-the-things/23-steelworker-ii-steel-in-2025-4x5.jpg
       title: Steelworker II
-      description: Indiana, USA (2025)  
-    - image: /images/photography/all-the-things/baby-shark-cdmx-2023.jpg
-      title: Baby Sharks and Brujitas
-      description: Mexico City, Mexico (2024)      
-    - image: /images/photography/all-the-things/the-alchemist-butler-in-2025.jpg
-      title: Steelworker III 
-      description: Indiana, USA (2025)           
+      description: Steel Plant in Indiana, USA (2025)  
+    - image: /images/photography/all-the-things/24-needs-edits-IMG_3762.jpg
+      title: Residence in Workers' Compound 
+      description: Metal Processing Plant in Guatemala (2022)
 
 
-    - image: /images/photography/all-the-things/20-halloween night.jpg
-      title: Night Shift on Halloween
-      description: New York, NY (2025)
-    - image: /images/photography/all-the-things/16-nyc-2023.jpg
-      title: Lunch Break
-      description: New York, NY (2024)      
-    - image: /images/photography/all-the-things/6-butler-IN-2025.jpg
-      title: Solaris
-      description: Butler, IN (2025)
+    - image: /images/photography/all-the-things/25-upwards-iii-nyc-2023.jpg
+      title: Upward III (Heat Wave)
+      description: New York, New York, USA (2025)       
+    - image: /images/photography/all-the-things/26-lunch-break-i-nyc-2023-2x3.jpg
+      title: Lunch Break II
+      description: New York, New York, USA(2025)           
+    - image: /images/photography/all-the-things/27-lunch-break-ii-nyc-2023.jpg
+      title: Lunch Break III
+      description: New York, New York, USA(2025)      
+
        
     #- image: /images/photography/all-the-things/9-.jpg
     #  title: (title)

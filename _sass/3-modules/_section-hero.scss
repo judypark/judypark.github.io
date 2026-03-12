@@ -37,10 +37,13 @@
 
   /* for mobile */
   @media only screen and (max-width: $tablet) {
-    flex: 0 0 50%;
-    max-width: 50%;
-    justify-content: center;
+    flex: 0 0 100%;          /* take full width */
+    max-width: 100%;
+    justify-content: center; /* vertical centering */
+    align-items: center;     /* ⬅ horizontal centering */
+    text-align: center;      /* ⬅ center any text under photo */
   }
+  
 }
 
 /* Hero image container (left column) */
@@ -80,11 +83,13 @@
     justify-content: center;       /* ⬅ center the whole button row */
     margin-top: $base-spacing-unit*1.5 ;
 
+    
     @media only screen and (max-width: $tablet) {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;         /* ⬅ keep them centered when stacked */
-      gap: $base-spacing-unit;     /* vertical gap */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;            /* ⬅ ensure full width */
+    gap: $base-spacing-unit;
     }
   }
 
