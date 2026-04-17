@@ -23,3 +23,9 @@ permalink: /photography/
 
 ***
 
+<section id="photo-3">
+  {% include section-pf-photo-3.html %}
+</section>
+
+***
+

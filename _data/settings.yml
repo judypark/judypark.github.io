@@ -109,9 +109,9 @@ portfolio-1-all-the-things:
     - image: /images/photography/all-the-things/23-steelworker-ii-steel-in-2025-4x5.jpg
       title: Steelworker II
       description: Steel Plant in Indiana, USA (2025)  
-    - image: /images/photography/all-the-things/24-needs-edits-workers-compound-guatemala-2022.jpg
-      title: Residential Compound for Workers
-      description: Metal Processing Plant in Guatemala (2022)
+ #   - image: /images/photography/all-the-things/24-needs-edits-workers-compound-guatemala-2022.jpg
+  #    title: Residential Compound for Workers
+  #    description: Metal Processing Plant in Guatemala (2022)
 
 
     - image: /images/photography/all-the-things/25-upward-iii-nyc-2023.jpg
@@ -136,12 +136,13 @@ photo-2-who-will-save:
     - image: /images/photography/who-will-save/judypark-girls-seoul-2024.jpg
       title: Girls
       description: Seoul, Korea (2024)
+
     - image: /images/photography/who-will-save/depanneur-in-the-night-montreal-qc-2025.jpg
       title: In the Night
-      description: Montreal (2024)
+      description: Montreal, QC (2024)
     - image: /images/photography/who-will-save/6-club cumming-2025.jpg
       title: Queens of Club Cumming
-      description: New York, NY (2025)      
+      description: New York, NY (2025)   
 
     - image: /images/photography/who-will-save/smoke-break-i-new-haven-ct-2024.jpg
       title: Smoke Break I
@@ -149,16 +150,13 @@ photo-2-who-will-save:
     - image: /images/photography/who-will-save/8-smoke break II-2025.jpg
       title: Smoke Break II 
       description: Queens, NY (2025)  
+
     - image: /images/photography/who-will-save/glass-shrine-cdmx-2024.jpg
       title: Glass Shrine (Can You Hear Me?)
-      description: Mexico City, Mexico (2024)     
+      description: Mexico City, Mexico (2024)  
+   
 
-    - image: /images/photography/who-will-save/woodside-station-queens-ny-2025.jpg
-      title: Woodside Station
-      description: Queens, NY (2025)         
-    - image: /images/photography/who-will-save/5-penn station superhero.jpg
-      title: Main Character
-      description: New York, NY (2025)
+
     - image: /images/photography/who-will-save/judypark-long-day-in-the-big-apple-nyc-2025.jpg
       title: Long Day in the Big Apple
       description: New York, NY (2025)
@@ -168,7 +166,42 @@ photo-2-who-will-save:
       description: New York, NY (2025)
 
 
-      
+photo-3-night-lights:
+  portfolio__title: Nocturnal
+    - image: /images/photography/3-night/1.jpg
+      title: Untitled
+      description: Puebla, Mexico (2025)         
+    - image: /images/photography/3-night/2.jpg
+      title: Untitled
+      description: Puebla, Mexico (2025)    
+    - image: /images/photography/3-night/3.jpg
+      title: Untitled
+      description: Puebla, Mexico (2025)    
+
+    - image: /images/photography/3-night/4.jpg
+      title: Untitled
+      description: Puebla, Mexico (2025)
+    - image: /images/photography/who-will-save/6-club cumming-2025.jpg
+      title: Queens of Club Cumming
+      description: New York, NY (2025)             
+    - image: /images/photography/who-will-save/depanneur-in-the-night-montreal-qc-2025.jpg
+      title: In the Night
+      description: Montreal, QC (2024)
+
+
+    - image: /images/photography/who-will-save/5-penn station superhero.jpg
+      title: Main Character
+      description: New York, NY (2025)
+    - image: /images/photography/who-will-save/woodside-station-queens-ny-2025.jpg
+      title: Woodside Station
+      description: Queens, NY (2025)         
+    - image: /images/photography/3-night/6-apparition.jpg
+      title: Untitled
+      description: Fort Wayne, IN (2025)    
+
+    - image: /images/photography/3-night/7-apparition.jpg
+      title: Untitled
+      description: Pittsburgh, PA (2026)    
 
 # Portfolio Settings - paintings
 paintings-1:
