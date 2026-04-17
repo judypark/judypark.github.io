@@ -168,6 +168,7 @@ photo-2-who-will-save:
 
 photo-3-night-lights:
   portfolio__title: Nocturnal
+  portfolio__gallery:
     - image: /images/photography/3-night/1.jpg
       title: Untitled
       description: Puebla, Mexico (2025)         
